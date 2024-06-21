@@ -29,16 +29,15 @@ QRgo is a simple Go application that allows users to enter a website URL and gen
 
 1. Run the application:
     ```sh
-    go run main.go
+    qrgo -url "https://website.com"
     ```
 
 2. Enter the website URL when prompted. (with https://)
 
-3. The generated QR code will be saved as an image file in the current directory.
+3. The generated QR code will be saved as an image file in the current directory
 
 ## Example
 
 ```sh
-$ go run main.go
-Enter website URL: https://example.com
-QR code generated and saved as qrcode.png
+qrgo -url "https://33kc.github.io"
+```
