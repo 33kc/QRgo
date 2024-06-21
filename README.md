@@ -24,6 +24,8 @@ QRgo is a simple Go application that allows users to enter a website URL and gen
     ```sh
     go mod tidy
     ```
+3. Add the directory of the `qrgo` cloned folder to your PATH variables (environmental variables).
+    
 
 ## Usage
 
